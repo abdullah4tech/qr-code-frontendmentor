@@ -1,0 +1,60 @@
+body {
+  background: hsl(229, 100%, 92%);
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7%;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 6px 5px 70px rgb(163, 163, 163); /* Adjusted shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: ;
+  overflow: hidden;
+}
+
+img {
+  width: 270px;
+  border-radius: 10px;
+  display: block;
+}
+
+.description {
+  width: 240px;
+  text-align: center;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.description h3 {
+  font-size: 1rem;
+  margin: 5px 0; /* Add small margin to control spacing */
+}
+
+.description p {
+  width: 220px;
+  font-size: 0.7rem;
+  color: gray;
+  margin: 5px 0; /* Add small margin to control spacing */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: auto; /* Stick to bottom if needed */
+  padding-top: 50px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
